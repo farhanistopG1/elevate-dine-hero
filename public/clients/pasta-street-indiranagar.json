@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Experience the Difference\nAuthentic Cuisine, Modern Flair",
+    "subtitle": "Handcrafted dishes made with fresh, locally-sourced ingredients.",
+    "ctaPrimary": "Reserve a Table",
+    "ctaSecondary": "Explore Our Menu"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "We believe that dining should be an experience. From our carefully curated menu to our warm and inviting atmosphere, we strive to create a memorable experience for every guest.  Our commitment to quality extends beyond our ingredients to our dedicated team who are passionate about providing exceptional service.",
+    "paragraph2": "We're more than just a restaurant; we're a part of the community. We support local farmers and suppliers, and we're always looking for ways to give back. Come join us and taste the difference."
+  }
+}
