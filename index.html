@@ -7,7 +7,18 @@
     <meta name="description" content="Experience modern cuisine with timeless flavors at Sage, our Michelin-starred restaurant offering an unforgettable dining experience." />
     <meta name="author" content="Sage Restaurant" />
     
-    <!-- Google Fonts -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+            console.log('Service Worker unregistered successfully.');
+          }
+        }).catch(function(err) {
+          console.log('Service Worker unregistration failed: ', err);
+        });
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
