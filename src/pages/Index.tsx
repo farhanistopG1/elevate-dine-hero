@@ -54,10 +54,12 @@ const Index = () => {
     const clientHandle = params.get('client');
 
     if (clientHandle) {
-      // The cache-busting fix is included here
-      const dataUrl = `/clients/${clientHandle}.json?v=${new Date().getTime()}`;
+      const dataUrl = `/clients/${clientHandle}.json`;
       
-      fetch(dataUrl)
+      // --- START OF THE FIX ---
+      // This { cache: 'reload' } option is the definitive command to bypass all caches.
+      fetch(dataUrl, { cache: 'reload' })
+      // --- END OF THE FIX ---
         .then(response => {
           if (!response.ok) throw new Error('Client data not found');
           return response.json();
