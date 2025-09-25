@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Experience the Taste of\nAuthentic Italian Cuisine",
+    "subtitle": "Fresh Ingredients, Handcrafted Recipes,\nand a Warm, Inviting Atmosphere",
+    "ctaPrimary": "Book a Table",
+    "ctaSecondary": "View Our Menu"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "At [Restaurant Name], we believe in the power of simple, fresh ingredients and time-honored traditions.  Our passion for authentic Italian cuisine is reflected in every dish we create, from our handmade pasta to our wood-fired pizzas. We source the finest ingredients from local farmers and suppliers whenever possible, ensuring the highest quality and flavor in every bite.",
+    "paragraph2": "Our warm and inviting atmosphere is perfect for a romantic dinner for two, a family gathering, or a celebration with friends.  We strive to create a memorable dining experience for every guest, from our attentive service to our carefully curated wine list. Come join us and discover the true taste of Italy."
+  }
+}
