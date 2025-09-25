@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "A Taste of Italy,\nRight Here in India",
+    "subtitle": "Experience authentic Italian cuisine in a warm and inviting atmosphere at Little Italy.",
+    "ctaPrimary": "View Our Menu",
+    "ctaSecondary": "Book a Table"
+  },
+  "about": {
+    "title": "About Little Italy",
+    "paragraph1": "At Little Italy, we bring the heart of Italy to your table. Our passion for authentic Italian cuisine is reflected in every dish, crafted with fresh, high-quality ingredients and time-honored recipes.  From classic pasta dishes to wood-fired pizzas and delectable desserts, we offer a culinary journey that will transport you to the charming streets of Rome or the sun-kissed coast of Naples.",
+    "paragraph2": "We believe that dining is not just about the food, but also about the experience.  Our warm and inviting atmosphere, coupled with our friendly and attentive service, creates the perfect setting for a memorable meal with family and friends. Join us and discover the true taste of Italy at Little Italy."
+  }
+}
