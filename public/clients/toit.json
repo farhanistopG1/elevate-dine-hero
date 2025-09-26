@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Toit: Bangalore's Original Craft Beer Experience",
+    "subtitle": "Discover award-winning brews, delectable dishes, and an unforgettable atmosphere right here at Toit. Your perfect pour awaits.",
+    "ctaPrimary": "Reserve Your Table",
+    "ctaSecondary": "Explore Our Brews & Bites"
+  },
+  "about": {
+    "title": "The Toit Story: Crafting Bangalore's Brew Culture",
+    "paragraph1": "The first Toit to open its doors and one of the city’s first microbreweries. We wanted to give people a place to be themselves – while enjoying some great brews, food, and ambience.",
+    "paragraph2": "More than just a pub, Toit is a vibrant community hub where friends gather, stories are shared, and every sip is a celebration. From our meticulously crafted lagers and IPAs to our diverse culinary menu, we're dedicated to delivering a premium experience that keeps you coming back for more."
+  }
+}
