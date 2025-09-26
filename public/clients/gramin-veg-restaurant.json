@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Gramin: Savor the Purity of Vegetarian Delights",
+    "subtitle": "At Gramin, we invite you to experience a culinary journey where fresh, wholesome ingredients meet passionate craftsmanship, creating unforgettable flavors.",
+    "ctaPrimary": "Explore Our Menu",
+    "ctaSecondary": "Make a Reservation"
+  },
+  "about": {
+    "title": "The Gramin Experience",
+    "paragraph1": "From the moment you step into Gramin, you're not just dining; you're embarking on a journey of taste and tradition. We're dedicated to crafting exquisite vegetarian dishes using the freshest, high-quality ingredients, ensuring every bite is a testament to purity and passion.",
+    "paragraph2": "At Gramin, our commitment extends beyond the plate. We strive to create a warm, welcoming atmosphere where friends and family can gather, share, and celebrate the richness of plant-based cuisine. Come discover why Gramin is the perfect destination for your next pure vegetarian culinary adventure."
+  }
+}
