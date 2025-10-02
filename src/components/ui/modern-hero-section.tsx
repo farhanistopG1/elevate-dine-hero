@@ -50,7 +50,10 @@ export const HeroCollage: React.FC<HeroCollageProps> = ({
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 md:px-6">
-        <div className="bg-background/95 backdrop-blur-sm rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl border border-border/50 animate-scale-in">
+        <div 
+          className="bg-background/95 backdrop-blur-sm rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl border border-border/50 animate-scale-in"
+          style={{ padding: 'clamp(1.5rem, 5vw, 3rem)' }}
+        >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground mb-4 md:mb-6 tracking-tight leading-tight">
             {title}
           </h1>
