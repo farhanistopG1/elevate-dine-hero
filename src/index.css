@@ -138,6 +138,28 @@
   50% { transform: translateY(-10px); }
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @layer components {
   .btn-sage {
     @apply bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl;
@@ -145,5 +167,52 @@
   
   .btn-outline-sage {
     @apply border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scale-in 0.6s ease-out forwards;
+  }
+  
+  /* Smooth touch interactions for mobile */
+  @media (hover: none) and (pointer: coarse) {
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    button, a {
+      touch-action: manipulation;
+    }
+    
+    /* Better active states for mobile */
+    button:active, a:active {
+      transform: scale(0.98);
+      transition: transform 0.1s ease;
+    }
+    
+    /* Reduce motion for animations on older devices */
+    .hero-float, .hero-float-delayed {
+      animation-duration: 8s;
+    }
+  }
+  
+  /* Performance optimizations */
+  .animate-fade-in, .animate-scale-in, .hero-float, .hero-float-delayed {
+    will-change: transform, opacity;
+  }
+  
+  /* Better scrolling on mobile */
+  @media (max-width: 768px) {
+    body {
+      -webkit-overflow-scrolling: touch;
+      overflow-x: hidden;
+    }
+    
+    section {
+      overflow-x: hidden;
+    }
   }
 }
