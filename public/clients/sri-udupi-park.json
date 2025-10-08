@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Sri Udupi Park",
+    "subtitle": "Exceptional dining experience awaits",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Sri Udupi Park is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients."
+  }
+}
