@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Burma Burma Restaurant & Tea Room",
+    "subtitle": "Exceptional dining experience awaits",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Burma Burma Restaurant & Tea Room is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients."
+  }
+}
