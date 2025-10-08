@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Third Wave Coffee",
+    "subtitle": "Exceptional dining experience awaits you",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Third Wave Coffee is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients to create memorable dining experiences."
+  }
+}
