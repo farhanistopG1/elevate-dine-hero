@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Phobidden Fruit Vietnamese Kitchen",
+    "subtitle": "Exceptional dining experience awaits",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Phobidden Fruit Vietnamese Kitchen is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients."
+  }
+}
