@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Vanamo Global Eats and Caffeinary",
+    "subtitle": "Exceptional dining experience awaits",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Vanamo Global Eats and Caffeinary is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients."
+  }
+}
