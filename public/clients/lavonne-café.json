@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Welcome to Lavonne Caf\u00e9",
+    "subtitle": "Exceptional dining experience awaits",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Book Table"
+  },
+  "about": {
+    "title": "Our Story",
+    "paragraph1": "Lavonne Caf\u00e9 is committed to serving exceptional cuisine with warm hospitality.",
+    "paragraph2": "Every dish is crafted with passion and the finest ingredients."
+  }
+}
